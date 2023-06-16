@@ -29,3 +29,4 @@ jobs:
         docker build -t spring-cicd .
         docker tag spring-cicd jjang9/cicdtest:${GITHUB_SHA::7}
         docker push jjang9/cicdtest:${GITHUB_SHA::7}
+        
